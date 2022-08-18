@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+}
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+body {
+  font-family: "Ubuntu";
+  font-style: normal;
+  background-color: #f8f3e6;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,58 @@
+.header__nav {
+  padding: 39px 0;
+}
+.header__menu {
+  display: flex;
+}
+
+.header__menu-item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.menu__item-link {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.header__info {
+  max-width: 585px;
+}
+
+.header__info-title {
+  margin-top: 41px;
+  margin-bottom: 20px;
+}
+
+.header__info-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 59px;
+}
+
+.header__info-btn {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #ffffff;
+  padding: 20px 110px;
+  background-color:#D14582;
+  border-radius: 30px;
+  margin-bottom: 248px;
+}
+
+.header{
+  position: relative;
+}
+.header-photo{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 500px;
+}
+.header__menu-tablet{
+  display: none;
+}

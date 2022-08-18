@@ -1,0 +1,20 @@
+.videolesson{
+  margin-bottom: 142px;
+}
+
+.videolesson__title{
+  margin-bottom: 75px;
+}
+
+.videolesson__inner{
+  width: 944px;
+  height: 674px;
+  margin: 0 auto;
+  background-color: #CBDFC3;
+  border-radius: 30px;
+
+}
+
+.videolesson__container{
+  padding: 100px 67px;
+}

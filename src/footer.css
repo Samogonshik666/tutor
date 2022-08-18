@@ -1,0 +1,30 @@
+.footer{
+  background-color:#94B687;
+}
+
+.footer__wrapper{
+  padding-top: 100px;
+  padding-bottom: 86px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__wrapper a{
+  display: block;
+}
+
+.footer__phone {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 53px;
+}
+
+.footer__social{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__link-item:not(:last-child){
+  margin-bottom: 50px;
+}

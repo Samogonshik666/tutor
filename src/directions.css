@@ -1,0 +1,42 @@
+.directions{
+  position: relative;
+  margin-bottom: 145px;
+}
+
+.directions__title{
+  margin-bottom: 89px;
+}
+
+.directions__inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  max-width: 782px;
+  min-height: 558px;
+
+}
+
+.directions__inner-item{
+  padding: 29px 100px;
+  background-color: #CBDFC3;
+  border-radius: 30px;
+}
+
+
+.directions__inner-img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+.directions__item-text{
+  text-align: center;
+  min-width: 176px;
+}
+
+.directions__bg{
+  position: absolute;
+  right:-25px;
+  top: 34px;
+}

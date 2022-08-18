@@ -1,0 +1,89 @@
+.lessons {
+  margin-bottom: 145px;
+}
+
+.lessons__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lessons__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lessons__items {
+  padding: 5px;
+  background-color: #cbdfc3;
+  border-radius: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lessons__btn {
+  padding: 20px 34px;
+  border-radius: 30px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.lessons__header-text {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.lessons__slide {
+  display: none;
+  position: relative;
+}
+
+.lessons__slide.active {
+  display: block;
+}
+
+.lessons__slide-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lessons__content-item {
+  padding: 39px 34px 55px 43px;
+  background-color: #cbdfc3;
+  max-width: 380px;
+  max-height: 338px;
+  border-radius: 20px;
+}
+
+.lessons__item-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.lessons__item-text {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.lessons__item-btn {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #ffffff;
+  padding: 18px 60px;
+  background-color: #d14582;
+  border-radius: 30px;
+}
+
+.lessons__sale {
+  position: absolute;
+  top: -49px;
+  right: -89px;
+}
