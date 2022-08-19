@@ -7,6 +7,7 @@ import './src/lessons.css'
 import './src/videolesson.css' 
 import './src/reviews.css' 
 import './src/footer.css'
+import './src/tablet.css'
 import './src/mobile.css'
 
 

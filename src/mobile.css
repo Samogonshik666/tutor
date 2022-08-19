@@ -121,8 +121,8 @@
   }
 
   .header__menu-btn {
-    width: 39px;
-    height: 39px;
+    /*width: 39px;
+    height: 39px;*/
   }
 
   .header__menu-phonelogo {
@@ -530,7 +530,7 @@
 /*lessons*/
 @media screen and (max-width: 767.98px){
   .lessons {
-    margin-bottom: 122px;
+    margin-bottom: 51px;
   }
   .lessons__title {
     font-weight: 400;
