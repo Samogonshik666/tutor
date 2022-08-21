@@ -1,0 +1,23 @@
+.menu {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.1s ease-in-out opacity;
+}
+
+#app.menu-active .menu {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.menu-slider {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 375px;
+    background-color: #94B687;
+}

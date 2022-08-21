@@ -18,9 +18,10 @@
 }
 
 .directions__inner-item{
-  padding: 29px 100px;
+  padding: 29px 62px;
   background-color: #CBDFC3;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -31,8 +32,10 @@
 
 
 .directions__item-text{
+  font-family: 'Roboto';
+  font-weight: 400;
   text-align: center;
-  min-width: 176px;
+  min-width: 252px;
 }
 
 .directions__bg{

@@ -7,6 +7,7 @@ h1 {
   font-size: 72px;
   line-height: 96px;
 }
+
 h2 {
   font-family: "Playfair Display";
   font-weight: 400;
@@ -14,8 +15,16 @@ h2 {
   line-height: 64px;
 }
 
+h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 body {
-  font-family: "Ubuntu";
+  font-family: "Playfair Display";
   font-style: normal;
   background-color: #f8f3e6;
 }
@@ -26,3 +35,69 @@ body {
   margin: 0 auto;
 }
 
+.splide__pagination {
+  padding-top: 16px;
+}
+
+.splide__pagination__page {
+  height: 16px;
+  width: 16px;
+  background-color: #94b687;
+  border-radius: 50%;
+  transition: 0.3s background-color ease-in-out;
+  margin: 0 23px;
+}
+.splide__pagination__page.is-active {
+  background-color: #d14582;
+}
+.splide__pagination__page:hover {
+  border: 2px solid #e34761;
+}
+button a {
+  color: #f8f3e6;
+}
+
+button:hover {
+  background-color: #f57ab0;
+}
+button:active {
+  background-color: #94B687;
+
+}
+
+.menu__close-btn {
+  margin-left: 295px;
+  margin-top: 30px;
+}
+
+.menu__list-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.menu-slider-list {
+  padding-left: 65px;
+}
+
+.social {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.whatsapp {
+  background-image: url("/assets/whatsapp.svg");
+}
+
+.whatsapp:hover {
+  background-image: url("/assets/whatsapp1.svg");
+}
+
+.telegram {
+  background-image: url("/assets/telegram.svg");
+}
+
+.telegram:hover {
+  background-image: url("/assets/telegram1.svg");
+}

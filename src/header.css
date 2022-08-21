@@ -15,6 +15,11 @@
   font-size: 24px;
 }
 
+.menu__item-link:hover{
+  color: #D14582;
+}
+
+
 .header__info {
   max-width: 585px;
 }

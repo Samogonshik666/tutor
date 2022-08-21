@@ -12,6 +12,7 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
-    "@splidejs/splide": "^4.0.7"
+    "@splidejs/splide": "^4.0.7",
+    "vite-plugin-imagemin": "^0.6.1"
   }
 }
