@@ -561,6 +561,7 @@
   }
   .lessons__items {
     margin-bottom: 7px;
+    padding: 3px;
   }
   .lessons__item-title {
     margin-bottom: 18px;
@@ -613,6 +614,7 @@
   }
   .lessons__items {
     margin-bottom: 5px;
+    padding: 2px;
   }
   .lessons__item-title {
     margin-bottom: 14px;
