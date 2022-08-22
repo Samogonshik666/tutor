@@ -42,7 +42,7 @@ buttons.forEach(button => {
 setActiveLessonSlide('online')
 
 const app = document.querySelector('#app')
-const menu = document.querySelector('.menu')
+const menu = document.querySelector('.menu__close-btn')
 const headerBtn = document.querySelector('.header__menu-btn')
 headerBtn.addEventListener('click', () => {
     app.classList.add('menu-active')
